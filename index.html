@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" id="inputBox" placeholder="0" disabled>
+        <div>
+            <button class="operator" data-action="clear">AC</button>
+            <button class="operator" data-action="delete">DEL</button>
+            <button class="operator" data-action="percent">%</button>
+            <button class="operator" data-action="divide">/</button>
+        </div>
+        <div>
+            <button data-action="number">7</button>
+            <button data-action="number">8</button>
+            <button data-action="number">9</button>
+            <button class="operator" data-action="multiply">x</button>   
+        </div>
+        <div>
+            <button data-action="number">4</button>
+            <button data-action="number">5</button>
+            <button data-action="number">6</button>
+            <button class="operator" data-action="subtract">-</button>
+        </div>
+        <div>
+            <button data-action="number">1</button>
+            <button data-action="number">2</button>
+            <button data-action="number">3</button>
+            <button class="operator" data-action="add">+</button> 
+        </div>
+        <div>
+            <button data-action="number">00</button>
+            <button data-action="number">0</button>
+            <button data-action="decimal">.</button>
+            <button class="equalBtn" data-action="evaluate">=</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
